@@ -1,0 +1,17 @@
+### Test Technical Interview
+POST http://localhost:8080/api/interviews/start
+Content-Type: application/json
+
+{
+  "title": "Junior Java Dev",
+  "type": "TECHNICAL"
+}
+
+### Test Behavioral Interview
+POST http://localhost:8080/api/interviews/start
+Content-Type: application/json
+
+{
+  "title": "HR Meeting",
+  "type": "BEHAVIORAL"
+}
